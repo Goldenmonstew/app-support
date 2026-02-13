@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Support, privacy policies, and terms of service for Goldenmonstew iOS apps: PhotoSweep, FocusBee, and WidgetCraft.">
+    <meta name="author" content="Goldenmonstew">
+    <meta property="og:title" content="Goldenmonstew App Support">
+    <meta property="og:description" content="Privacy policies, terms of service, and support for PhotoSweep, FocusBee, and WidgetCraft.">
+    <meta property="og:type" content="website">
+    <title>Goldenmonstew - App Support</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0d1117;
+            color: #e6edf3;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 1.5rem 2rem;
+            border-bottom: 1px solid #21262d;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #8b949e;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        main {
+            flex: 1;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem;
+            width: 100%;
+        }
+
+        .apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .app-card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 2rem;
+            transition: border-color 0.2s ease;
+        }
+
+        .app-card:hover {
+            border-color: #58a6ff;
+        }
+
+        .app-card .app-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+
+        .app-card h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 0.4rem;
+        }
+
+        .app-card .app-tagline {
+            font-size: 0.95rem;
+            color: #8b949e;
+            margin-bottom: 1.25rem;
+        }
+
+        .app-card .badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            color: #3fb950;
+            background-color: rgba(63, 185, 80, 0.1);
+            border: 1px solid rgba(63, 185, 80, 0.3);
+            border-radius: 999px;
+            padding: 0.2rem 0.7rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .app-card .links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .app-card .links a {
+            font-size: 0.95rem;
+            color: #58a6ff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .app-card .links a:hover {
+            text-decoration: underline;
+        }
+
+        .section-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #8b949e;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+        }
+
+        .support-section {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #21262d;
+        }
+
+        .support-section h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 0.75rem;
+        }
+
+        .support-section p {
+            color: #8b949e;
+            max-width: 600px;
+        }
+
+        .support-section a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        .support-section a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1.5rem;
+            border-top: 1px solid #21262d;
+            color: #484f58;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 640px) {
+            header {
+                padding: 2rem 1rem 1.5rem;
+            }
+
+            header h1 {
+                font-size: 1.7rem;
+            }
+
+            main {
+                padding: 1.5rem 1rem;
+            }
+
+            .apps-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Goldenmonstew</h1>
+        <p>Privacy-first iOS apps. All processing happens on your device. No data ever leaves your phone.</p>
+    </header>
+
+    <main>
+        <p class="section-title">Our Apps</p>
+        <div class="apps-grid">
+            <div class="app-card">
+                <span class="app-icon" role="img" aria-label="PhotoSweep icon">&#x1F9F9;</span>
+                <h2>PhotoSweep</h2>
+                <p class="app-tagline">Smart photo cleanup tool</p>
+                <span class="badge">100% On-Device</span>
+                <div class="links">
+                    <a href="photosweep/privacy.html">Privacy Policy</a>
+                    <a href="photosweep/terms.html">Terms of Service</a>
+                </div>
+            </div>
+
+            <div class="app-card">
+                <span class="app-icon" role="img" aria-label="FocusBee icon">&#x1F41D;</span>
+                <h2>FocusBee</h2>
+                <p class="app-tagline">Focus timer &amp; habit tracker</p>
+                <span class="badge">100% On-Device</span>
+                <div class="links">
+                    <a href="focusbee/privacy.html">Privacy Policy</a>
+                    <a href="focusbee/terms.html">Terms of Service</a>
+                </div>
+            </div>
+
+            <div class="app-card">
+                <span class="app-icon" role="img" aria-label="WidgetCraft icon">&#x1F3A8;</span>
+                <h2>WidgetCraft</h2>
+                <p class="app-tagline">Widgets, wallpapers &amp; icon packs</p>
+                <span class="badge">100% On-Device</span>
+                <div class="links">
+                    <a href="widgetcraft/privacy.html">Privacy Policy</a>
+                    <a href="widgetcraft/terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="support-section">
+            <h2>Support</h2>
+            <p>Need help with one of our apps? Have a question or feature request? Please open an issue on our <a href="https://github.com/Goldenmonstew/app-support/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a> page and we will get back to you as soon as possible.</p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2026 Goldenmonstew. All rights reserved.
+    </footer>
+</body>
+</html>
